@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+@extends('layouts.app')
+@section('content')
     <title>Product List</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
 <body>
 <div class="container mt-2">
     <div class="row">
@@ -77,5 +73,4 @@
         });
     </script>
 </div>
-</body>
-</html>
+@endsection
