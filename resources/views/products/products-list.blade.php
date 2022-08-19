@@ -32,7 +32,9 @@
                 <th>Product Image</th>
                 <th width="280px">Action</th>
                 <th>
+                    @if(count($products))
                     <input class="btn btn-danger" type="submit" name="submit" value="Delete All Products"/>
+                    @endif
                     <label for="checkAll"><input type="checkbox" id="checkAll"> Select All</label>
                 </th>
             </tr>
